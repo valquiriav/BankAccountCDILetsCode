@@ -14,7 +14,7 @@
           <element id="module-output" name="BankAccountCDILetsCode" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.4.8.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.se:weld-se:2.4.8.Final" />
         </element>
       </element>
       <element id="directory" name="META-INF">
