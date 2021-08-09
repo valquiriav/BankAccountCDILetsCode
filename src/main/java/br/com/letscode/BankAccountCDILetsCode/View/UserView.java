@@ -1,8 +1,11 @@
 package br.com.letscode.BankAccountCDILetsCode.View;
 
-public class UserView {
+import br.com.letscode.BankAccountCDILetsCode.Domain.User;
 
-    public void createUser(){
+import java.util.Scanner;
 
-    }
+public interface UserView {
+
+    public void createUser(Scanner scanner);
+    public User getUser(String name);
 }
