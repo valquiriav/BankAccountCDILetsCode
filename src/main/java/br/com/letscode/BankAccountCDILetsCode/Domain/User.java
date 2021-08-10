@@ -4,6 +4,7 @@ public class User {
     private Long taxNumber;
     private String name;
     private int code;
+    private String filePath;
 
     public Long getTaxNumber() {
         return taxNumber;
@@ -27,5 +28,13 @@ public class User {
 
     public void setCode(int code) {
         this.code = code;
+    }
+
+    public void setPath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public  String getFilePath(){
+        return filePath;
     }
 }
