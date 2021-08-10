@@ -1,10 +1,14 @@
 package br.com.letscode.BankAccountCDILetsCode;
 
+import br.com.letscode.BankAccountCDILetsCode.View.UserView;
+
+import javax.inject.Inject;
+
 public class Application {
-    public void getContaView(){
+    @Inject
+    private UserView userView;
 
-    }
-    public void getUserView(){
-
+    public UserView getUserView(){
+        return userView;
     }
 }

@@ -22,10 +22,10 @@ public class Main {
             option = scanner.nextInt();
             switch (option) {
                 case 1:
-                    //authenticateUser();
+
                     break;
                 case 2:
-                    //createUser();
+                    application.getUserView().create(scanner);
                     break;
                 case 0:
                     System.exit(0);

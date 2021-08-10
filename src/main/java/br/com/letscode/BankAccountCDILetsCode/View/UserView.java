@@ -6,6 +6,5 @@ import java.util.Scanner;
 
 public interface UserView {
 
-    public void createUser(Scanner scanner);
-    public User getUser(String name);
+    public User create(Scanner scanner);
 }
