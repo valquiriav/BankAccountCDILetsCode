@@ -1,5 +1,6 @@
 package br.com.letscode.BankAccountCDILetsCode;
 
+import br.com.letscode.BankAccountCDILetsCode.Domain.User;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
@@ -25,7 +26,9 @@ public class Main {
                     application.getUserView().authenticate(scanner);
                     break;
                 case 2:
-                    application.getUserView().create(scanner);
+                    application.createUser(scanner);
+                    application.getUsers().stream()
+                            .map(User::getFilePath).forEach(System.out::println);
                     break;
                 case 0:
                     System.exit(0);

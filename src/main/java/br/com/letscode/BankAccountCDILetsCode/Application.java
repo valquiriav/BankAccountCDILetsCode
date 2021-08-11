@@ -18,11 +18,8 @@ public class Application {
     @Inject
     private UserView userView;
 
+    @Inject
     private AccountFactory accountFactory;
-
-    public UserView getUserView(){
-        return userView;
-    }
 
     @PostConstruct
     public void init(){
