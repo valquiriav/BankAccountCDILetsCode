@@ -1,6 +1,6 @@
 package br.com.letscode.BankAccountCDILetsCode.Domain;
 
-public interface Account {
-
-
+public enum AccountEnum {
+    SAVINGS,
+    SPECIAL
 }
