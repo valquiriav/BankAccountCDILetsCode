@@ -22,7 +22,7 @@ public class Main {
             option = scanner.nextInt();
             switch (option) {
                 case 1:
-
+                    application.getUserView().authenticate(scanner);
                     break;
                 case 2:
                     application.getUserView().create(scanner);

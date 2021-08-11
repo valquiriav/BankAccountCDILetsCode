@@ -7,4 +7,5 @@ import java.util.Scanner;
 public interface UserView {
 
     public User create(Scanner scanner);
+    public User authenticate(Scanner scanner);
 }

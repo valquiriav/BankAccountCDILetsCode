@@ -25,4 +25,11 @@ public class UserViewImpl implements UserView{
         System.out.printf("User %s was successfully created.\n Your authentication code is:\n %d \n Don't loose it! This will be the key to access your account.", user.getName(), user.getCode());
         return user;
     }
+
+    @Override
+    public User authenticate(Scanner scanner) {
+        System.out.println("PLease inform your authentication code:");
+
+        return null;
+    }
 }
